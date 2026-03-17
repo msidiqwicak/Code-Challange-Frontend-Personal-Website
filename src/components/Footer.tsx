@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <div className="mt-32 py-4 px-10 relative flex items-center bg-zinc-800">
-      <h1 className="text-2xl font-bold">Portofolio</h1>
+    <div className="mt-32 bg-blue-950 py-4 px-10 relative flex items-center">
+      <h1 className="text-2xl font-bold">Portfolio</h1>
 
       <div className="absolute left-1/2 -translate-x-1/2 flex gap-7">
-        <a href="#home">Back on Top</a>
+        <a href="#home" className="hover:text-blue-900">Back on Top</a>
        
       </div>
 

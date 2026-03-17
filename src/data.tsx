@@ -1,4 +1,4 @@
-import HeroImage from "/assets-wicak/hero-imge.png";
+import HeroImage from "/assets-wicak/wicakhero.png";
 
 const Image = {
   HeroImage,
@@ -10,13 +10,12 @@ import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
 import Tools3 from "/assets/tools/nextjs.png";
 import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
+import Tools5 from "/assets/tools/js.png";
+import Tools6 from "/assets/tools/nodejs.png";
+import Tools7 from "/assets/tools/github.png";
+import Tools8 from "/assets/tools/ai.png";
+import Tools9 from "/assets/tools/canva.png";
+import Tools10 from "/assets/tools/figma.png";
 
 export const listTools = [
   {
@@ -50,48 +49,41 @@ export const listTools = [
   {
     id: 5,
     gambar: Tools5,
-    nama: "Bootstrap",
-    ket: "Framework",
-    dad: "500",
-  },
-  {
-    id: 6,
-    gambar: Tools6,
     nama: "Javascript",
     ket: "Language",
     dad: "600",
   },
   {
-    id: 7,
-    gambar: Tools7,
+    id: 6,
+    gambar: Tools6,
     nama: "Node JS",
     ket: "Javascript Runtime",
     dad: "700",
   },
   {
-    id: 8,
-    gambar: Tools8,
+    id: 7,
+    gambar: Tools7,
     nama: "Github",
     ket: "Repository",
     dad: "800",
   },
   {
-    id: 9,
-    gambar: Tools9,
+    id: 8,
+    gambar: Tools8,
     nama: "Adobe Illustrator",
     ket: "Design App",
     dad: "900",
   },
   {
-    id: 10,
-    gambar: Tools10,
+    id: 9,
+    gambar: Tools9,
     nama: "Canva",
     ket: "Design App",
     dad: "1000",
   },
   {
-    id: 11,
-    gambar: Tools11,
+    id: 10,
+    gambar: Tools10,
     nama: "Figma",
     ket: "Design App",
     dad: "1100",
@@ -109,8 +101,8 @@ export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "School Website",
+    desk: "I created to showcase school information, academic activities, and digital learning resources with a clean and user-friendly design",
     tools: ["HTML", "CSS", "Javascript", "AOS"],
     dad: "200",
   },
@@ -118,15 +110,15 @@ export const listProyek = [
     id: 2,
     gambar: Proyek2,
     nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "A modern company profile website I created to present the company’s identity, services, portfolio, and business values with a clean and professional design",
     tools: ["HTML", "CSS", "Javascript", "AOS"],
     dad: "300",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Wedding Website 2.0",
+    desk: "I created to showcase the couple’s story, event details, gallery, and RSVP feature with a clean and elegant interface",
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "400",
   },
@@ -134,7 +126,7 @@ export const listProyek = [
     id: 4,
     gambar: Proyek4,
     nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "A modern course website I created to provide online learning materials, structured lessons, and an engaging digital learning experience",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "500",
   },
@@ -142,7 +134,7 @@ export const listProyek = [
     id: 5,
     gambar: Proyek5,
     nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "A modern portfolio website I created to showcase my projects, technical skills, and creative work in web development and digital design",
     tools: ["HTML", "CSS", "Javascript", "Bootstrap"],
     dad: "600",
   },
@@ -150,7 +142,7 @@ export const listProyek = [
     id: 6,
     gambar: Proyek6,
     nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "A modern company profile website I created to present the company’s identity, services, portfolio, and business values with a clean and professional design",
     tools: ["NextJS", "TailwindCSS", "Framermotion"],
     dad: "700",
   },

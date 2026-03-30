@@ -114,7 +114,7 @@ export default function Project() {
 
           <div className="flex flex-col items-center gap-3">
             <a
-              href={activeProject.dad || "#"}
+              href={activeProject.link || "#"}
               className="w-full md:w-auto px-8 py-3 bg-blue-900 hover:bg-zinc-700 rounded-xl font-bold transition-all text-center shadow-lg shadow-blue-900/20"
             >
               See Website
